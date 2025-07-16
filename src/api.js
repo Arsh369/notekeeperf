@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // change if deployed
+  baseURL: 'https://notekeeper-w30q.onrender.com/api', // change if deployed
 });
 
 // Add auth token to all requests if logged in
